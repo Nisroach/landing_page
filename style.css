@@ -1,0 +1,64 @@
+/* red boxes to see the placings */
+
+* {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header, hero and footers/ adding colors, text adjustings*/
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+
+/* random information area/ adding colors, text adjustings*/
+
+
+
+/*button mod*/
+
+button {
+    font-size: 18px;
+
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+
+
+/* moving things around, place it in right area after adjusting */
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+h1 {
+    flex: 1;
+}
