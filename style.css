@@ -1,5 +1,9 @@
 /* red boxes to see the placings */
 
+* {
+    border: 1px solid red;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -38,7 +42,18 @@ h1 {
 
 /* inside hero container, awesome paragraph,button and image*/
 
-.awesome-container .awesome-title {
+.inner-left-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 70px;
+}
+
+.awesome-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome-container #awesome-title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -52,16 +67,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-.inner-left-container {
-    display: flex;
-    margin-top: 50px;
-    gap: 25px;
-}
-
-.awesome-container {
-    display: flex;
-    flex-direction: column;
-}
 
 img {
     padding: 50px 200px;
