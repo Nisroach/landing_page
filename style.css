@@ -1,5 +1,6 @@
 /* red boxes to see the placings */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 body {
     display: flex;
@@ -9,6 +10,8 @@ body {
     max-width: 1125px;
     min-width: 1125px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /* header, hero and footers/ adding colors, text adjustings*/
@@ -26,7 +29,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
 }
 
 h1 {
@@ -107,7 +110,7 @@ img {
 
 h2 {
     font-size: 36px;
-    font-weight: bolder;
+
     color: #1f2937;
 }
 
@@ -127,3 +130,13 @@ button {
 
 /* moving things around, place it in right area after adjusting */
 
+.quote-container {
+    background-color: #E5E7EB;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
