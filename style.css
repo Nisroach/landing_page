@@ -20,12 +20,13 @@ body {
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #1f2937;
     min-height: 380px;
+    max-height: 500px;
     padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 120px;
+    
 }
 
 .header {
@@ -50,13 +51,17 @@ h1 {
 
 .inner-left-container {
     display: flex;
-    margin-top: 50px;
-    gap: 35px;
+    justify-content: center;
+    gap: 50px;
+    min-width: 100px;
+    padding-top: 110px;
 }
 
 .awesome-container {
     display: flex;
     flex-direction: column;
+    flex-basis: 400px;
+    min-width: 420px;
 }
 
 .awesome-container #awesome-title {
@@ -124,9 +129,11 @@ h2 {
 .quote-container {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
-    padding: 85px 150px;
-    min-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;   
+    min-width: 1300px;
+    min-height: 420px;
 }
 
 .quote {
@@ -142,7 +149,7 @@ h2 {
     margin-top: 0px;
     font-size: 25px;
     font-weight: 700;
-    margin-right: 35px;
+    margin-right: 300px;
 }
 
 /* call to action container */
@@ -204,3 +211,12 @@ h2 {
 
 /* moving things around, place it in right area after adjusting */
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1299.98px;
+    min-height: 100px; 
+    color: #f9faf8;
+    background-color: #1f2937;
+}
